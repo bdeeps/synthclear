@@ -1,0 +1,126 @@
+{
+  "slug": "synthclear",
+  "box": 27,
+  "question": "How does a synthesizer work?",
+  "url": "https://glassbox-production-fd52.up.railway.app/e/synthclear/",
+  "app": "https://glassbox-production-fd52.up.railway.app/synthclear/",
+  "assets": {
+    "reel": "reel.mp4",
+    "video": "video.mp4",
+    "cover": "cover.jpg",
+    "thumb": "thumb.jpg",
+    "still": "still.jpg",
+    "historyReel": "history-reel.mp4",
+    "historySlides": [
+      "history-slide-1.jpg",
+      "history-slide-2.jpg",
+      "history-slide-3.jpg",
+      "history-slide-4.jpg",
+      "history-slide-5.jpg",
+      "history-slide-6.jpg",
+      "history-slide-7.jpg",
+      "history-slide-8.jpg",
+      "history-slide-9.jpg",
+      "history-slide-10.jpg"
+    ],
+    "slides": [
+      "slide-1.jpg",
+      "slide-2.jpg",
+      "slide-3.jpg",
+      "slide-4.jpg",
+      "slide-5.jpg",
+      "slide-6.jpg",
+      "slide-7.jpg",
+      "slide-8.jpg",
+      "slide-9.jpg",
+      "slide-10.jpg"
+    ]
+  },
+  "captions": {
+    "history": {
+      "instagram": "130 years from a 200-ton music machine in New York to synthesizers that live inside a laptop.\n\n1906: A 200-ton music machine\n1920: An instrument you never touch\n1964: Moog's modules take the stage\n1968: Switched-On Bach\n1979: The Fairlight and the birth of sampling\n1980: The TR-808 drum machine\n\nThe full story, with 30 moments, sources and charts: glassbox-production-fd52.up.railway.app/e/synthclear/history (link in bio)\n\nThen play with how it works: glassbox-production-fd52.up.railway.app/synthclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #synthesizer #synth #moog #subtractivesynthesis #fmsynthesis #adsr #history",
+      "youtube": {
+        "title": "The history of the synthesizer in 45 seconds #shorts",
+        "description": "130 years from a 200-ton music machine in New York to synthesizers that live inside a laptop.\n\n1906 · A 200-ton music machine (Thaddeus Cahill)\n1920 · An instrument you never touch (Leon Theremin (Lev Termen))\n1964 · Moog's modules take the stage (Robert Moog, with composer Herb Deutsch)\n1968 · Switched-On Bach (Wendy Carlos, with producer Rachel Elkind)\n1979 · The Fairlight and the birth of sampling (Peter Vogel and Kim Ryrie (Fairlight))\n1980 · The TR-808 drum machine (Roland (Ikutaro Kakehashi, Tadao Kikumoto))\n\n▶ Full history: https://glassbox-production-fd52.up.railway.app/e/synthclear/history/\n▶ Play with it: https://glassbox-production-fd52.up.railway.app/e/synthclear/\n\n#glassbox #howitworks #explained #history"
+      }
+    },
+    "instagram": "How does a synthesizer work?\n\nA synthesizer builds sound from nothing but electricity: oscillators hum, a filter carves, an envelope shapes every note. Play a real synth in your browser, take a Minimoog-style keyboard apart in 3D, and see why two sine waves can ring like a bell.\n\n→ A synthesizer makes sound from electricity: oscillators, a filter, an amplifier, and keys to play them.\n→ Early synths were modular: separate boxes joined by patch cables in any order you like.\n→ Every tone is a stack of sine waves. Add harmonics one by one and a sine turns into a sawtooth.\n→ A square wave uses only odd harmonics. A triangle’s fade much faster, so it sounds soft.\n→ A filter carves harmonics away. Sweep its cutoff down and the bright buzz turns dark: the classic wah.\n\nPlay with it yourself. It's free and open source: glassbox-production-fd52.up.railway.app/synthclear (link in bio)\n\nBox No. 027 of 365. Follow @glassbox.how for a new \"how it works\" every day.\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #synthesizer #synth #moog #subtractivesynthesis #fmsynthesis #adsr #midi #tr808 #webaudio",
+    "carousel": "Swipe through: How does a synthesizer work?\n\nA synthesizer builds sound from nothing but electricity: oscillators hum, a filter carves, an envelope shapes every note. Play a real synth in your browser, take a Minimoog-style keyboard apart in 3D, and see why two sine waves can ring like a bell.\n\nSave this for later, then play with the interactive version at glassbox-production-fd52.up.railway.app/synthclear (link in bio).\n\nBox No. 027 · @glassbox.how\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #synthesizer #synth #moog #subtractivesynthesis #fmsynthesis #adsr",
+    "youtube": {
+      "title": "How does a synthesizer work? #shorts",
+      "description": "A synthesizer builds sound from nothing but electricity: oscillators hum, a filter carves, an envelope shapes every note. Play a real synth in your browser, take a Minimoog-style keyboard apart in 3D, and see why two sine waves can ring like a bell.\n\n▶ Play with it: https://glassbox-production-fd52.up.railway.app/e/synthclear/\n⌘ Source code (MIT): https://github.com/bdeeps/synthclear\n\nBox No. 027 of 365 from Glassbox: one open-source interactive explainer every day.\n\n#glassbox #howitworks #explained"
+    },
+    "youtubeLong": {
+      "title": "How does a synthesizer work? (interactive explainer)",
+      "description": "A synthesizer builds sound from nothing but electricity: oscillators hum, a filter carves, an envelope shapes every note. Play a real synth in your browser, take a Minimoog-style keyboard apart in 3D, and see why two sine waves can ring like a bell.\n\n▶ Play with the interactive version: https://glassbox-production-fd52.up.railway.app/e/synthclear/\n⌘ Source code (MIT): https://github.com/bdeeps/synthclear\n\nIn this video:\n• Oscillators, a filter, an amplifier. A classic synth has three main parts in a row.\n• Every tone is a stack of sine waves. Any repeating wave is a sum of sine waves at 1, 2, 3… times its frequency: its harmonics.\n• Subtractive: start bright, carve away. A lowpass filter lets low frequencies through and cuts the high harmonics.\n• Attack, decay, sustain, release. An envelope gives each note a shape in time.\n• FM: one wave wobbles another. John Chowning found at Stanford that wobbling a sine wave's frequency very fast adds sidebands at the carrier plus and minus multiples of the modulator.\n• MIDI: messages, not sound. Since 1983, instruments talk in MIDI: three bytes such as note on, which note, and how hard, sent at 31,250 bits a second.\n\nGlassbox opens one box a day: an interactive model of how something works, plus the code behind it.\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+    },
+    "short": "How does a synthesizer work?\n\nA synthesizer builds sound from nothing but electricity: oscillators hum, a filter carves, an envelope shapes every note.\n\nPlay with it: https://glassbox-production-fd52.up.railway.app/e/synthclear/",
+    "linkedin": "How does a synthesizer work?\n\nA synthesizer builds sound from nothing but electricity: oscillators hum, a filter carves, an envelope shapes every note. Play a real synth in your browser, take a Minimoog-style keyboard apart in 3D, and see why two sine waves can ring like a bell.\n\n1. Oscillators, a filter, an amplifier\n2. Every tone is a stack of sine waves\n3. Subtractive: start bright, carve away\n4. Attack, decay, sustain, release\n5. FM: one wave wobbles another\n6. MIDI: messages, not sound\n\nI built an interactive, open-source explainer so you can pull the levers yourself. It's box No. 027 in my one-a-day project, Glassbox.\n\nTry it: https://glassbox-production-fd52.up.railway.app/e/synthclear/\nCode: https://github.com/bdeeps/synthclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+  },
+  "schedule": {
+    "at": "2026-09-27T13:00:00.000Z"
+  },
+  "targets": [
+    {
+      "service": "instagram",
+      "kind": "reel",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "carousel",
+      "offsetHours": 4,
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "short",
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "linkedin",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "twitter",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "threads",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "tiktok",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "history-reel",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "youtube",
+      "kind": "history-short",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "instagram",
+      "kind": "history-carousel",
+      "offsetHours": 6,
+      "enabled": false
+    }
+  ],
+  "thumbnailOffsetMs": 1200,
+  "updatedAt": "2026-09-27T11:01:17.741Z"
+}

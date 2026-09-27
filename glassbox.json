@@ -1,0 +1,107 @@
+{
+  "slug": "synthclear",
+  "box": 27,
+  "date": "2026-10-07",
+  "title": "SynthClear",
+  "question": "How does a synthesizer work?",
+  "hook": "A synthesizer builds sound from nothing but electricity: oscillators hum, a filter carves, an envelope shapes every note. Play a real synth in your browser, take a Minimoog-style keyboard apart in 3D, and see why two sine waves can ring like a bell.",
+  "thumbText": "HOW A SYNTH WORKS",
+  "field": "sound",
+  "minutes": 15,
+  "tags": [
+    "synthesizer",
+    "synth",
+    "Moog",
+    "subtractive synthesis",
+    "FM synthesis",
+    "ADSR",
+    "MIDI",
+    "TR-808",
+    "Web Audio",
+    "music technology",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "Oscillators, a filter, an amplifier",
+      "text": "A classic synth has three main parts in a row. Oscillators make a buzzing wave, a filter shapes its tone, and an amplifier sets how loud it is. The keyboard only sends two signals: which note, and when a key is down."
+    },
+    {
+      "title": "Every tone is a stack of sine waves",
+      "text": "Any repeating wave is a sum of sine waves at 1, 2, 3… times its frequency: its harmonics. A sawtooth has every harmonic at 1/n, a square only the odd ones at 1/n, and a triangle the odd ones at 1/n², which is why it sounds so soft."
+    },
+    {
+      "title": "Subtractive: start bright, carve away",
+      "text": "A lowpass filter lets low frequencies through and cuts the high harmonics. Moog's ladder filter falls 24 dB per octave. Resonance boosts the harmonics right at the cutoff, and sweeping the cutoff makes the classic wah."
+    },
+    {
+      "title": "Attack, decay, sustain, release",
+      "text": "An envelope gives each note a shape in time. Attack is the rise, decay the fall to the sustain level, which holds while the key is down, and release the fade after you let go. Short and sharp is a pluck; slow and long is a pad."
+    },
+    {
+      "title": "FM: one wave wobbles another",
+      "text": "John Chowning found at Stanford that wobbling a sine wave's frequency very fast adds sidebands at the carrier plus and minus multiples of the modulator. The ratio places them and the index sets how many. Yamaha's DX7 made it famous in 1983."
+    },
+    {
+      "title": "MIDI: messages, not sound",
+      "text": "Since 1983, instruments talk in MIDI: three bytes such as note on, which note, and how hard, sent at 31,250 bits a second. A step sequencer sends them on time, the idea behind drum machines like the Roland TR-808 and every DAW today."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Oscillator",
+      "def": "A circuit or program that makes a repeating wave. Its frequency sets the note."
+    },
+    {
+      "term": "Harmonic",
+      "def": "A sine wave at a whole-number multiple of a note's frequency. The mix of harmonics sets the tone."
+    },
+    {
+      "term": "Subtractive synthesis",
+      "def": "Making a sound by starting with a bright wave and filtering harmonics away."
+    },
+    {
+      "term": "Lowpass filter",
+      "def": "A filter that passes low frequencies and cuts high ones, above its cutoff."
+    },
+    {
+      "term": "Resonance",
+      "def": "A boost at a filter's cutoff, made by feeding its output back in."
+    },
+    {
+      "term": "ADSR envelope",
+      "def": "Attack, decay, sustain and release: the four settings that shape a note in time."
+    },
+    {
+      "term": "LFO",
+      "def": "Low-frequency oscillator: a slow wave that wobbles pitch, tone or loudness."
+    },
+    {
+      "term": "FM synthesis",
+      "def": "Making rich sounds by wobbling one sine wave's frequency with another at audio speed."
+    },
+    {
+      "term": "MIDI",
+      "def": "The 1983 standard that lets instruments and computers send notes to each other as short messages."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "synthclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}
